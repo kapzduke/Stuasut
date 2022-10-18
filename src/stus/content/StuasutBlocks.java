@@ -123,7 +123,8 @@ public class StuasutBlocks {
         }};
 
         //crafting
-        //oh shit
+        
+            //nothing yet, we'll see
 
         //production
 
@@ -154,7 +155,7 @@ public class StuasutBlocks {
             //storage
 
             coreDawn = new CoreBlock("core-shard"){{
-                requirements(Category.effect, BuildVisibility.editorOnly, with(StuasutItems.zinc, 1000, StuasutItems.dencealloy, 560, StuasutItems.barium, 450));
+                requirements(Category.effect, BuildVisibility.editorOnly, with(StuasutItems.zinc, 2000, StuasutItems.dencealloy, 560, StuasutItems.barium, 800));
                 alwaysUnlocked = true;
 
                 isFirstTier = true;
